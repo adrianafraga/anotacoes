@@ -1,0 +1,22 @@
+Desafios Gustato
+
+1) Banco (Conta)
+
+2) Leitura de arquivos
+
+3) Livraria
+
+Hibernate Classes DAO (para cada classe Produto, Venda, ItemVenda)
+https://github.com/adrianafraga/Hibernate
+
+Hibernate / Generic DAO
+https://github.com/adrianafraga/GenericsDao
+
+
+
+
+SELECT * FROM ITEMVENDA;
+
+SELECT * FROM VENDA;
+
+SELECT * FROM produto;

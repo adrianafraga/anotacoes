@@ -1,0 +1,36 @@
+Java
+
+
+JVM - 
+
+jdk - servidores de aplicação
+
+eclipse - não precisa do jdk
+só jre
+
+
+
+
+List <resultAgrupado> listResultAgrupado = new ArrayList <>();
+		ResultadoAgrupado resultAgrupado = new ResultadoAgrupado(subprod, result1);
+		
+		
+		csvResultadoAgrupado.add(new ResultadoAgrupado(result1.(0).getSubprod()));
+		int cont = 0;
+		for (Resultado resposta: result) {
+			i = 0;
+			Object resultadoAgrupado;
+			for(Resultado resultado: resultAgrupado) {
+				if(resposta.getSuproduto().equals(resultado.getSuproduto()));
+				resultado.setResultado(resposta.getResultado()+resultado.getResultado());
+				break;
+			} else {
+				i++;
+				if(resultAgrupado.size( ==i)) {
+					resultAgrupado.add(resposta);
+					break;
+				}
+				
+			}
+			
+		}

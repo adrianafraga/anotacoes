@@ -1,0 +1,21 @@
+Polimorfismo
+um objeto tem a capacidade de tomar diversas formas
+
+
+Herança - herdar objetos
+Objects é a classe princioal
+todos os objetos do java, são herdados da superclasse
+
+@override
+
+classe abstrata - é um molde
+pode conter métodos abstratos, porém que implementar nas classes filhas
+métodos abstratos não tem corpo
+ex:
+public abstract void deposita (double valor);
+
+
+
+ctrl
+
+classe scanner ->  ler um arquivo

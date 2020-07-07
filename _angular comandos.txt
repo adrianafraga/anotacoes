@@ -1,0 +1,38 @@
+Magia é o que eu sou
+A meditação só é tão importante na magia porque pra onde quer que a gente foque a nossa atenção , essa é a direção para a magia vai fluir.
+
+tantra
+tem papel importante em certos aspectos
+
+dar xi pra ela
+
+
+
+npm uninstall angular-cli -g
+ npm uninstall angular-cli --save 
+npm install -g @angular/cli 
+npm install @angular/cli --save 
+npm install @angular/compiler-cli --save 
+
+
+npm cache clean --force
+desinstalação do npm -g @ angular / cli
+remova os arquivos de% temp% e temp e obtenha previamente e reinicie o sistema e instale o
+npm install -g @ angular / cli
+ng novo
+funcionou de mim ............
+
+obrigado 
+
+
+////// correção ngular-devkit
+npm install --save-dev @angular-devkit/build-angular
+
+
+-----------
+
+
+
+The "@angular-devkit/schematics" package cannot be resolved from the workspace root directory. This may be due to an unsupported node modules structure.
+Please remove both the "node_modules" directory and the package lock file; and then reinstall.
+If this does not correct the problem, please temporarily install the "@angular-devkit/schematics" package within the workspace. It can be removed once the update is complete.

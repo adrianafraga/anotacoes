@@ -1,0 +1,60 @@
+ create table venda(
+	 idvenda serial primary key,
+	 date varchar(12),
+	 total decimal(10,2),
+	 idcliente integer not null,
+	 foreign key (idcliente) references cliente(id)
+ )
+
+ create table itens_venda(
+	 iditemvenda serial primary key,
+	 idvenda integer not null,
+	 idlivro integer not null,
+	 quantidade integer,
+	 subtotal decimal (10,2),
+	 foreign key (idvenda) references venda(idvenda),
+	 foreign key (idvenda) references venda(idvenda);
+
+create table genero(
+	idgenero serial primary key,
+	descricao varchar(100) not null
+)
+
+ create table livro(
+	 idlivro serial primary key,
+	 titulo varchar(100) not null,
+	 preco float,
+	 estoque integer,
+	 idgenero integer not null,
+	 foreign key (idgenero) references genero(idgenero)
+);
+
+
+create table itens_venda(
+	 iditensvenda serial primary key,
+	 quantidade integer,
+	 subtotal float,
+	 estoque integer,
+	 idvenda integer not null,
+	 idlivro integer not null,
+	 foreign key (idvenda) references venda(idvenda),
+	 foreign key (idlivro) references livro (idlivro)
+);
+
+create table autor(
+	 idautor serial primary key,
+	 nome varchar(100),
+	 email varchar(100)
+);
+
+create table escreve(
+	 idlivro integer not null,
+	 idautor integer not null,
+	 foreign key (idlivro) references livro(idlivro),
+	 foreign key (idautor) references autor (idautor)
+);
+
+insert into venda
+(idvenda, total, idcliente, data)
+values 
+();

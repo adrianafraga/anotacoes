@@ -1,0 +1,29 @@
+Package padrão
+toda classe java por boas práticas tem que ficar num padrão, dentro de um pacote.
+Exemplo: com.qintess.banco.modelo
+
+Main - classe inicializar uma parte do projeto
+
+SRC- pasta de fontes
+no java o nome da classe não é apenas o nome Conta.java, mas o nome do pacote inteiro.
+Exemplo: com.qintess.banco.modelo.Conta.java
+
+cada projeto tem que ter pelo menos 1 classe de execução MAIN (ela emula a funcionalidade da aplicação no mundo real)
+
+projeto complilado vira um JAR (.class)
+
+
+CTRL + SHIFT + F -> identar o código
+CTRL + I - selecionar todo o código e apertar
+
+
+	Cliente cliente = new Cliente();
+		cliente.setNome("Ana Júlia");
+		contaCliente.setCliente(cliente);
+		System.out.println(contaCliente.getCliente().getNome());
+
+
+	Cliente cliente = new Cliente();
+		cliente.setNome("Ana Júlia");
+		contaCliente.setCliente(cliente);
+		System.out.println(contaCliente.getCliente().getNome());

@@ -1,0 +1,26 @@
+//métoda saque
+	/*public void sacar (double valorSaque) {
+		
+		if (valorSaque <= saldo) {
+			saldo -=valorSaque - taxaSaque;
+			System.out.println("Saque realizado");
+			saldo -= taxaSaque;
+			System.out.println("Seu saldo atual é" + saldo );
+			
+		}
+		else if (valorSaque > saldo) {
+			System.out.println(saldo);
+			double saldoLimite;
+			saldoLimite = chequeEspecial - saldo;
+			saldoLimite -= valorSaque;
+			saldoLimite = saldoLimite - taxaSaque - taxaLimite;					
+			System.out.println("Voce entrou no cheque especial" + "o saldo do seu limite é:" + saldo);
+				
+					
+			
+		}
+		else {
+			System.out.println("Seu saldo é insuficiente!!!");
+		}
+		
+	}	*/

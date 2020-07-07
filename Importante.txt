@@ -1,0 +1,40 @@
+Resource
+Login: re039863
+qintess@123
+
+http://webmail.resource.com.br
+
+https://sistemas.resource.com.br
+
+===================================
+
+Postgree (instalação)
+senha: Drix
+
+http://www.dsc.ufcg.edu.br/~jacques/cursos/p2/html/oo/usando.htm
+
+
+
+	//métoda saque
+	public void sacar () {
+		
+		if (valorSaque < saldo) {
+			saldo -=valorSaque - taxaSaque;
+			System.out.println("Saque realizado");
+			saldo -= taxaSaque;
+			System.out.println("Seu saldo atual é" + saldo );
+			
+		}
+		else if (valorSaque > saldo) {
+			
+			saldo = saldo + chequeEspecial;
+			saldo -= valorSaque - (taxaSaque+taxaLimite);					
+			System.out.println("Voce entrou no cheque especial" + "Seu saldo atual é:" + saldo);
+			
+					
+			
+		}
+
+
+if(dm.get() == op.getIdPreco() && oper1.getPrazo() == dm.getNuPrazoDiasCorridos())
+				

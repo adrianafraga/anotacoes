@@ -1,0 +1,15 @@
+select 
+	l.idlivro,
+	i.titulo
+	sum (i.quantidade)as qtd_total
+from
+	itens_venda as i
+join
+	livro as l on (l.idlivro = i.idlivro)
+group by
+	l.idlivro
+	i.titulo
+order by
+	qtd_total desc
+limit 1;
+	
